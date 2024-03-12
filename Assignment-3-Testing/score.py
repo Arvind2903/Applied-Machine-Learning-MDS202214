@@ -23,7 +23,7 @@ def score(text: str, model: BaseEstimator, threshold: float) -> Tuple[bool, floa
     """
     # Define the preprocessing pipeline
     preprocess_pipeline = Pipeline([
-        ('tfidf', TfidfVectorizer()),
+        ('tfidf', TfidfVectorizer(max_features=2000)),
         # Add more preprocessing steps if needed
     ])
     script_directory = os.path.dirname(os.path.abspath(__file__))
