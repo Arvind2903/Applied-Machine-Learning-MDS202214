@@ -16,7 +16,7 @@ X_validation, y_validation = validation_data['text'], validation_data['spam']
 # Convert text data to numerical format using suitable encoding (e.g., TF-IDF, CountVectorizer, etc.)
 # Define the preprocessing pipeline
 preprocess_pipeline = Pipeline([
-    ('tfidf', TfidfVectorizer(max_features=2000)),
+    ('tfidf', TfidfVectorizer(max_features=1275)),
     # Add more preprocessing steps if needed
 ])
     
