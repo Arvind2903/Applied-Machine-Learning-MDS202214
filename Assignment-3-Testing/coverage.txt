@@ -5,9 +5,9 @@ py.test --cov-report term --cov=. test.py > coverage.txt
 This was my output:
 
 ============================= test session starts ==============================
-platform linux -- Python 3.10.12, pytest-8.0.2, pluggy-1.4.0
-rootdir: /mnt/e/VSCode/Applied ML/Assignment_3
-plugins: cov-4.1.0, anyio-4.3.0
+platform linux -- Python 3.10.12, pytest-8.1.1, pluggy-1.4.0
+rootdir: /mnt/e/VSCode/Applied-ML/Assignment-3
+plugins: anyio-3.7.1, cov-4.1.0
 collected 2 items
 
 test.py ..                                                               [100%]
@@ -16,11 +16,12 @@ test.py ..                                                               [100%]
 Name       Stmts   Miss  Cover
 ------------------------------
 app.py        18      6    67%
-model.py      14     14     0%
-score.py      18      0   100%
+model.py      22     22     0%
+score.py      25      5    80%
 test.py       65      0   100%
 ------------------------------
-TOTAL        115     20    83%
+TOTAL        130     33    75%
 
 
-============================== 2 passed in 6.43s ===============================
+============================== 2 passed in 50.56s ==============================
+
